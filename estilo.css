@@ -1,0 +1,155 @@
+@charset"utf-8";
+
+
+h1,h2 {
+    color: black;
+    margin: 40px;
+}
+
+body {
+    background-color: white;
+}
+
+
+.nav{
+    list-style: none;
+    text-align: center;
+    padding: 2px 0 -20px 0;
+    border-radius: 30%;
+
+}
+
+
+.nav li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    
+}
+
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav li a:hover {
+    color: red;
+    
+}
+
+
+
+.banner img {
+    width: 100%;
+    border-radius: 5% 5% 5% 5%;
+}
+
+
+.btns {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+h1 {
+    font-family: serif;
+}
+
+.texto {
+    font-family: serif;
+    padding: 20px;
+    line-height: 2;
+    color: black;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+
+.foto-legenda1 img {
+    width: 30%;
+    box-shadow: 2px 0px 18px -1px black;
+    border-radius: 15%;
+}
+
+
+.foto-legenda2 img {
+    width: 40%;
+    border-radius: 100%;
+}
+
+.foto-legenda3 img {
+    width: 40%;
+    box-shadow: 2px 0px 18px -1px black;
+    border-radius: 5%;
+}
+
+.foto-legenda4 img {
+    width: 40%;
+    box-shadow: 2px 0px 18px -1px black;
+    border-radius: 6%;
+}
+
+.newsletter{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 3px;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.newsleteer form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter form input {
+    width: 42%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid red;
+    border-radius: 90px;
+    color: #fff;
+    background-color: inherit;
+    float:left;
+}
+
+.newsletter button {
+    width: 10%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.footer li  {
+    display: inline-grid;
+    padding: 20px 20px 10px 20px;
+}
+
+
+
+a {
+    color: red;
+}
+
+
+
+@media (max-width: 600px) {
+    
+    .foto-legenda1 img, .foto-legenda2 img, .foto-legenda3 img, .foto-legenda4 img {
+        width: 100%;
+    }
+}

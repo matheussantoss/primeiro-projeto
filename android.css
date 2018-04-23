@@ -1,0 +1,243 @@
+body {
+	margin: 0;
+	background: white;
+    overflow-x: hidden;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+    float: right;
+    text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #4b7d2f;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: forestgreen;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 500ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+.logo {
+    width: 10%;
+    margin-top: 10px;
+}
+
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    
+}
+
+
+
+.principal {
+    width: 90%;
+    float: left;
+    padding: 20px 8%;
+    background-color: #00E676;
+}
+
+.thenewandroidoreo {
+    width: 90%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.thenewandroidoreo h2 {
+    margin-bottom: 98px;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 29px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.thenewandroidoreo img {;
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+.thenewandroidoreo p {
+    text-align: justify;
+    color: white;
+    line-height: 2;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+/* o codigo abaixo é para o article >>> Google Assistente*/
+
+
+.principal2 {
+    width: 90%;
+    float: left;
+    padding: 20px 8%;
+    background-color: white;
+}
+
+
+.googleassistente {
+    width: 90%;
+    float: left; 
+    padding: 0 20px 20px 0;
+}
+
+
+.googleassistente h2 {
+    margin-top: 100px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: black;
+    font-size: 29px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+.googleassistente img {
+    width: 50%;
+    border-radius: 8%;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.googleassistente p {
+    text-align: justify;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+
+/* o codigo abaixo é para o article >>> androidpay */
+
+
+.principal3 {
+    width: 90%;
+    float: left;
+    padding: 20px 8%;
+    background-color: wheat;
+}
+
+
+.androidpay {
+    width: 90%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+
+.androidpay h2 {
+    margin-top: 100px;
+    margin-bottom: 90px;
+    text-align: center;
+    color: black;
+    font-size: 29px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+.androidpay img {
+    width: 50%;
+    border-radius: 8%;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+
+
+
+.androidpay p {
+    text-align: justify;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2;
+    font-family: 'Cutive Mono', monospace;
+    align-self: center;
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    
+    .thenewandroidoreo img, .googleassistente img, .androidpay img  {
+        width: 100%;
+        float: left;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    
+    nav a {
+        font-size: 80%;
+    }
+}
+
+
+@media (max-width: 700px) {
+    
+    .logo {
+        width: 25%;
+        
+    }
+}
